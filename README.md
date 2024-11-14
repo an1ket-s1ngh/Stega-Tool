@@ -48,11 +48,12 @@ You can replace these with your own files.
 
 # Code Overview:
 ## Text Steganography
-Encoding:
+**Encoding:**
 Converts the secret message to binary.
 Applies transformations (XOR with 170) and adds identifiers.
 Embeds the binary data into the cover text file using ZWC.
-Decoding:
+
+**Decoding:**
 Extracts the ZWC characters from the stego text file.
 Reverses the transformations to retrieve the original message.
 ## Audio Steganography
@@ -78,9 +79,13 @@ Decrypts the message using RC4 to retrieve the original message.
 
 ## Dependencies
 **Python 3**
+
 **NumPy**
+
 **OpenCV**
+
 **Matplotlib**
+
 **Wave**
 
 ## Note
