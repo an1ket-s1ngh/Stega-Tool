@@ -35,17 +35,18 @@ This tool provides a multi-format steganography solution, allowing you to concea
 
 
 
-Follow the on-screen menu to choose the desired steganography operation and format.
+3. **Follow the on-screen menu to choose the desired steganography operation and format.**
 
-**Sample Cover Files**
+# Sample Cover Files:
 The "Sample_cover_files" directory contains sample cover files for each format:
 
-cover_text.txt
+**cover_text.txt
 cover_audio.wav
-cover_video.mp4
+cover_video.mp4**
+
 You can replace these with your own files.
 
-# Code Overview
+# Code Overview:
 ## Text Steganography
 Encoding:
 Converts the secret message to binary.
