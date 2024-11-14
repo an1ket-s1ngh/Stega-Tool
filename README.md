@@ -1,5 +1,4 @@
-# Multi-Format Data Concealment Tool using Steganography
-
+# Multi-Format Data Concealment Tool
 This tool provides a multi-format steganography solution, allowing you to conceal text data within text, audio, and video files. It leverages various techniques like LSB encoding, Zero-Width Characters (ZWC), and RC4 stream cipher for encryption.
 
 ## Features
