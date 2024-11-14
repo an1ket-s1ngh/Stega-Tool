@@ -23,15 +23,12 @@ This tool provides a multi-format steganography solution, allowing you to concea
 
 2. **Navigate to the project directory:**
 
-## Bash
-
    ```bash
    cd multi-format-steganography
    ```
 
 3. **Run the tool:**
 
-## Bash
    ```bash
     python Steganography.py
    ```
