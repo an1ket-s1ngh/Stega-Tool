@@ -20,26 +20,27 @@ This tool provides a multi-format steganography solution, allowing you to concea
 
    ```bash
    git clone https://github.com/an1ket-s1ngh/Stega-Tool
-Use code with caution.
 
-Navigate to the project directory:
+2. **Navigate to the project directory:**
 
 ## Bash
 
-``bash
+   ```bash
    cd multi-format-steganography
-Use code with caution.
+   ```
 
-##Run the tool:
+3. **Run the tool:**
 
 ## Bash
-``python Steganography.py
+   ```bash
+    python Steganography.py
+   ```
 
-Use code with caution.
+
 
 Follow the on-screen menu to choose the desired steganography operation and format.
 
-Sample Cover Files
+**Sample Cover Files**
 The "Sample_cover_files" directory contains sample cover files for each format:
 
 cover_text.txt
