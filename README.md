@@ -56,30 +56,32 @@ Decoding:
 Extracts the ZWC characters from the stego text file.
 Reverses the transformations to retrieve the original message.
 ## Audio Steganography
-Encoding:
+**Encoding:**
 Reads the audio file and converts it to a byte array.
 Converts the secret message to binary.
 Embeds the binary data into the least significant bits of the audio data.
-Decoding:
+
+**Decoding:**
 Extracts the least significant bits from the stego audio file.
 Converts the binary data back to the original message.
 ## Video Steganography
-Encoding:
+**Encoding:**
 Reads the video file and selects a specific frame for embedding.
 Encrypts the secret message using RC4.
 Converts the encrypted message to binary.
 Embeds the binary data into the least significant bits of the frame's pixel data.
-Decoding:
+
+**Decoding:**
 Extracts the least significant bits from the specified frame of the stego video file.
 Converts the binary data back to the encrypted message.
 Decrypts the message using RC4 to retrieve the original message.
 
 ## Dependencies
-Python 3
-NumPy
-OpenCV
-Matplotlib
-Wave
+**Python 3**
+**NumPy**
+**OpenCV**
+**Matplotlib**
+**Wave**
 
 ## Note
 This tool is for educational and research purposes only.
