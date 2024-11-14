@@ -41,7 +41,9 @@ This tool provides a multi-format steganography solution, allowing you to concea
 The "Sample_cover_files" directory contains sample cover files for each format:
 
 **cover_text.txt**
+
 **cover_audio.wav**
+
 **cover_video.mp4**
 
 You can replace these with your own files.
