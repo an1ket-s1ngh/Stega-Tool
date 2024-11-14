@@ -24,14 +24,15 @@ Use code with caution.
 
 Navigate to the project directory:
 
-Bash
-cd multi-format-steganography
+##Bash
+``cd multi-format-steganography
 Use code with caution.
 
-Run the tool:
+##Run the tool:
 
-Bash
-python main.py
+##Bash
+``python Steganography.py
+
 Use code with caution.
 
 Follow the on-screen menu to choose the desired steganography operation and format.
@@ -44,8 +45,8 @@ cover_audio.wav
 cover_video.mp4
 You can replace these with your own files.
 
-Code Overview
-Text Steganography
+#Code Overview
+##Text Steganography
 Encoding:
 Converts the secret message to binary.
 Applies transformations (XOR with 170) and adds identifiers.
@@ -53,7 +54,7 @@ Embeds the binary data into the cover text file using ZWC.
 Decoding:
 Extracts the ZWC characters from the stego text file.
 Reverses the transformations to retrieve the original message.
-Audio Steganography
+##Audio Steganography
 Encoding:
 Reads the audio file and converts it to a byte array.
 Converts the secret message to binary.
@@ -61,7 +62,7 @@ Embeds the binary data into the least significant bits of the audio data.
 Decoding:
 Extracts the least significant bits from the stego audio file.
 Converts the binary data back to the original message.
-Video Steganography
+##Video Steganography
 Encoding:
 Reads the video file and selects a specific frame for embedding.
 Encrypts the secret message using RC4.
@@ -71,19 +72,15 @@ Decoding:
 Extracts the least significant bits from the specified frame of the stego video file.
 Converts the binary data back to the encrypted message.
 Decrypts the message using RC4 to retrieve the original message.
-Dependencies
+
+##Dependencies
 Python 3
 NumPy
 OpenCV
 Matplotlib
 Wave
-Note
+
+##Note
 This tool is for educational and research purposes only.
 The authors are not responsible for any misuse of this tool.
 The effectiveness of steganography depends on the cover file and the amount of data hidden.
-Contributing
-Contributions are welcome! Please feel free to submit issues and pull requests.
-
-License
-This project is licensed under the MIT License.   
-
